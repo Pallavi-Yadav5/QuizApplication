@@ -1,0 +1,122 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+
+body{
+  background-image: url("bg_home2.webp");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%,100%;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+
+
+li {
+  float: left;
+  border-right:1px solid #bbb;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #92ceb8;
+  color: black;
+}
+
+
+#log2{
+  margin-top: 120px;
+  margin-left: 110px;
+  width: 400px;
+  height: 400px;
+  position: relative;
+} 
+
+#log3{
+    margin-top: 120px;
+    margin-left: 110px;
+    width: 400px;
+    height: 400px;
+    background: black;
+    border-radius: 15px;
+    border: 1px solid white;
+    position: relative; 
+}
+
+span
+{
+	background : linear-gradient(to right,#ff105f,#ffad06);
+	-webkit-background-clip:text;
+	color : transparent;
+}
+
+h3{
+    margin-top: 25px ;
+    text-align: center;
+    margin-bottom: 4rem;
+    color: white;
+}
+select{
+    color: #fff;
+}
+
+#email,#cn,#pass,#cpass,#fn{
+    width: 100%;
+    padding: 10px,5px;
+    margin: 5px,.50px;
+    border: 0;
+    border-bottom: 1px solid white;
+    outline: none;
+    color: #fff;
+    background-color: transparent;
+}
+
+::placeholder{
+    color: white;
+}
+
+h3{
+    color: white;
+}
+.log5{
+	background : linear-gradient(to right,#ff105f,#ffad06);
+	-webkit-background-clip:text;
+	color : transparent;
+  border: 1px solid white;
+  margin: 1px,1px;
+}
+
+@media screen and (max-width: 500px) {
+  #log2{
+    margin-top: 120px;
+    margin-left: 110px;
+    width: 400px;
+    height: 370px;
+    
+  }
+
+  #log3{
+    margin-top: 120px;
+    margin-left: 110px;
+    width: 400px;
+    height: auto;
+}
+}
+

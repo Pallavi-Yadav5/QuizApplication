@@ -1,0 +1,131 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+
+body{
+    background-image: url("bg_cou1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%,100%;
+}
+
+.log1,.log2,.log3{
+    margin-top: 70px;
+    margin-left: 200px;
+    cursor: pointer;
+    height: 150px;
+    width: 150px;
+}
+.inner1{
+    display:flex;
+    gap: 5px;
+}
+
+.log4,.log5,.log6{
+    margin-top: 130px;
+    margin-left: 200px;
+    cursor: pointer;
+    height: 150px;
+    width: 150px;
+}
+
+.inner2{
+    display:flex;
+    gap: 5px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+    border-right:1px solid #bbb;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #92ceb8;
+    color: black;
+  }
+
+
+  @media only screen and (min-width: 250px) {
+    .log1,.log2,.log3{
+      margin-top: 70px;
+      margin-left: 90px;
+      width: 50px;
+      height: 50px;
+   }
+
+    .log4,.log5,.log6{
+      margin-top: 100px;
+      margin-left: 90px;
+      width: 50px;
+      height: 50px;
+    }
+  }
+
+  @media only screen and (min-width: 600px) {
+    .log1,.log2,.log3{
+      margin-top: 70px;
+      margin-left: 110px;
+      width: 80px;
+      height: 80px;
+   }
+
+    .log4,.log5,.log6{
+      margin-top: 130px;
+      margin-left: 110px;
+      width: 80px;
+      height: 80px;
+    }
+  }
+
+
+  @media only screen and (min-width: 768px){
+    .log1,.log2,.log3{
+      margin-top: 70px;
+      margin-left: 175px;
+      width: 100px;
+      height: 100px;
+   }
+
+    .log4,.log5,.log6{
+      margin-top: 110px;
+      margin-left: 175px;
+      width: 100px;
+      height: 100px;
+    }
+  }
+
+
+  @media only screen and (min-width: 1100px){
+    .log1,.log2,.log3{
+      margin-top: 70px;
+      margin-left: 200px;
+      width: 150px;
+      height: 150px;
+   }
+
+    .log4,.log5,.log6{
+      margin-top: 130px;
+      margin-left: 200px;
+      width: 150px;
+      height: 150px;
+    }
+  }
+
